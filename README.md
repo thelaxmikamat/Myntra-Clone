@@ -1,6 +1,6 @@
 # Myntra-Clone
 
-> **Disclaimer:** This project is a front-end clone developed for educational purposes to demonstrate UI design and React component structuring. It is not affiliated with, endorsed by, or associated with Myntra in any official capacity.
+**Disclaimer:** This project is a front-end clone developed for educational purposes to demonstrate UI design and React component structuring. It is not affiliated with, endorsed by, or associated with Myntra in any official capacity.
 
 A functional and responsive replica of the Myntra e-commerce landing page built using React.js and custom CSS. This project focuses on UI/UX accuracy, including dynamic navigation and interactive promotional sections.
 
@@ -8,7 +8,7 @@ A functional and responsive replica of the Myntra e-commerce landing page built 
 
 ## 🔗 Live Demo
 
-   Checkout out project here: [Myntra Clone]
+   Checkout out project here: [Myntra Clone](https://thelaxmikamat.github.io/Myntra-Clone/)
 
  ---  
 
@@ -36,14 +36,14 @@ A functional and responsive replica of the Myntra e-commerce landing page built 
 ```text
   index.html
   style.css
-|-src/
-  |-Header
-  |  |-header.js
-  |-Header2
-  |  |-main.js
-  |-Footer
-  |  |-footer.js
-  |-Body2
-  |  |-body2.js
-  |-second.js
+  |-src/
+    |-Header
+    |  |-header.js
+    |-Header2
+    |  |-main.js
+    |-Footer
+    |  |-footer.js
+    |-Body2
+    |  |-body2.js
+    |-second.js
      
