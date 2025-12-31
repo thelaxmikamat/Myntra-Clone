@@ -1,0 +1,284 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+        background-color: rgb(243, 243, 243);
+}
+
+.heading{
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 1500;
+    background-color: white;
+    margin-bottom: 40px;
+    font-size: 25px;
+
+}
+.images{
+    position: relative;
+    left: 10px;
+}
+.options{
+    padding-top: 30px;
+}
+.but:hover{
+    cursor: pointer;
+}
+.button:hover{
+    cursor: pointer;
+}
+.but, .button{
+    margin-right: 10px;
+    height: 30px;
+    border: none;
+    background-color: white;
+    font-size: 15px;
+}
+.but{
+    position: relative;
+}
+.dropdown {
+    position: absolute;
+    z-index: 1000;
+    background-color: rgb(227, 252, 252);
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+     top: 100%;
+     left: 0;
+     padding: 8px 12px;
+    min-width: 150px;
+
+     
+}
+.dropdown h2{
+    width: 100%;
+    /*gap: 400px;*/
+    white-space: nowrap;
+}
+    .dropdown a{
+        display: inline-block;
+        white-space: nowrap;
+        margin: 5px;
+        margin-top: 10px;
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+.menu{
+    position: relative;
+    display: inline-block;
+    margin: 5px;
+}
+/*.menu:nth-of-type(1) .dropdown{
+    left: 10px;
+}
+.menu:nth-of-type(2) .dropdown{
+    left: 20px;
+}*/
+.search{
+    width: 350px;
+    height: 30px;
+    position: relative;
+    top: 35px;
+     background: url('https://cdn-icons-png.flaticon.com/512/622/622669.png') no-repeat 5px center;
+     background-size: 18px;
+     padding-left: 45px;
+     border-radius: 10px;
+     background-color: rgb(230, 230, 230);
+     border: none;
+}
+.three-option{
+   /* padding-left: 15px;*/
+    display: flex;
+    align-items: center;
+    bottom: 40px;
+    margin-right: 20px;
+}
+.button{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    font-size: 12px;
+    font-weight:bold;
+}
+.button img{
+    width: 20px;
+    height: 20px;
+    margin-bottom: 4px;
+}
+.images{
+    cursor:pointer;
+}
+.off{
+/*box-shadow: 2px 2px 10px red;*/
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+.flat{
+    width:80%;
+    height: 250px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 30px grey;
+    cursor: pointer;
+}
+.sliders{
+    display: flex;
+    overflow:hidden;
+    background-color: rgb(241, 239, 239);
+    margin-top: 50px;
+    margin-bottom: 20px;
+    cursor: pointer;
+   
+}
+.sliders-img{
+    flex: 0 0 100%;
+     width:100%;
+      animation: slide 20s infinite;
+      animation-delay: 2s;
+      object-fit: cover;
+    
+}
+.blog{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    background-color: rgb(242, 239, 239);
+    margin-top: 50px;
+    gap: 10px;
+    padding: 40px 120px;
+}
+.section-1, .section-2{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+     cursor: pointer;
+}
+.google{
+    width: 180px;
+    margin-top: 30px; 
+     cursor: pointer;
+
+}
+.apple{
+    width: 150px;
+    margin-top: 30px; 
+     cursor: pointer;
+}
+.links{
+    display: flex;
+    gap: 10px;
+}
+.links img{
+    height: 20px;
+     cursor: pointer;
+}
+.section-4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+     cursor: pointer;
+    
+}
+.days, .orign{
+    height: 50px;
+    padding: 5px;
+}
+.Days-14{
+    margin-right: 80px;
+}
+.section-4 div{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+.section-4 p{
+display: inline-block;
+font-size: 17px;
+line-height: 1.5rem;
+color: rgb(67, 64, 64);
+}
+.section-4 strong{
+    color: black;
+}
+.searches{
+    padding: 10px 120px;
+    background-color: rgb(242, 239, 239);
+}
+.searches h5{
+    display: flex;
+    align-items: center;  
+    gap: 10px; 
+}
+.searches h5 hr{
+    flex: 1;
+    color: rgb(208, 208, 208);
+}
+.searches p{
+    color: rgb(67, 64, 64);
+}
+.contact{
+    margin-top: 30px;
+}
+.container, .container-2{
+    overflow: hidden;
+    width: 100%;
+}
+.stars{
+    background-color: rgb(237, 233, 233);
+    display: flex;
+     gap: 1px;
+     animation: offer 20s infinite ease-in-out;
+     margin: 20px;
+     cursor: pointer;
+     margin-top: 40px;
+}
+.star{
+    width:20%;
+    flex-shrink: 0;
+    object-fit: cover;
+}
+.rising{
+    margin-left: 40px;
+    color: rgb(68, 67, 67);
+    margin-top: 50px;
+}
+.deals{
+    display: flex;
+    gap: 1px;
+    animation: grand 30s infinite ease-in-out;
+    margin: 20px;
+    margin-top: 40px;
+    cursor: pointer;
+}
+.luxe{
+    width:16.66%;
+    flex-shrink: 0;
+    object-fit: cover;
+}
+@keyframes slide {
+    0% { transform: translateX(0);}
+    20% { transform: translateX(-100%);}
+    40%{  transform: translateX(-200%);}
+    80%{  transform: translateX(-400%);}
+    100% { transform: translateX(0);}
+}
+@keyframes offer {
+    0%, 20% {transform: translateX(0);}
+    33%, 53% {transform: translateX(-100%);}
+    66%, 86% {transform: translateX(-200%);}
+    100% {transform: translateX(0);}
+}
+@keyframes grand {
+    0%, 20% {transform: translateX(0);}
+    35%, 55% {transform: translateX(-100%);}
+    70%, 90% {transform: translateX(-200%);}
+    100% {transform: translateX(0%);}
+}
